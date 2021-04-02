@@ -7,6 +7,7 @@ import {
   Link
 } from "react-router-dom";
 function Nav(props) {
+  
   const[showMenu , setShowMenu]=useState(false);
     return (
       <>
@@ -14,7 +15,7 @@ function Nav(props) {
         <div className="sticky -top-1 bg-gray-900 text-white bg-opacity-90 flex justify-center items-center pt-4 pb-3 z-40">
             <div className="flex justify-between items-center w-11/12  xl:w-4/5 2xl:w-2/5">
             <div className="logo w-1/5">
-                <h1 className="text-2xl lg:text-3xl xl:text-3xl 2xl:text-3xl text-semibold">Southampton</h1>
+                <h1 className="text-2xl lg:text-3xl xl:text-3xl 2xl:text-3xl text-semibold">UoS</h1>
             </div>
             <div className="w-2/5 font-semibold hidden lg:block xl:block 2xl:block">
                 <ul className="flex justify-between ">
@@ -25,7 +26,7 @@ function Nav(props) {
                 </ul>
             </div>
             <div className="font-semibold w-1/5 text-right hidden lg:block xl:block 2xl:block">
-                <Para text="User Name"/>
+                <Para text="UserName"/>
              </div>
              <div className="hover:text-blue-500 text-xl pt-1 block lg:hidden xl:hidden 2xl:hidden" onClick={()=>{setShowMenu(true)}}>
               <p ><i class="fa fa-bars" aria-hidden="true"></i></p>

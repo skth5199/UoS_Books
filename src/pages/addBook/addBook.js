@@ -73,7 +73,7 @@ function Addbook(props) {
                     name="w3review"
                     rows="7"
                     className="resize-none w-full outline-none pl-2 pt-2 bg-gray-100 border-gray-200 border-opacity-30 focus:outline-none focus:ring-1 focus:ring-blue-600"
-                    placeholder="Write Cooking Process..."
+                    placeholder="Book description..."
                   ></textarea>
                 </div>
               </div>
