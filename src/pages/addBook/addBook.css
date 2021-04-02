@@ -1,0 +1,11 @@
+.add-book-hero-image{
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/images/book-library-with-open.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat:no-repeat ;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
